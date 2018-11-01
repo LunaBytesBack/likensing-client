@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.scireum</groupId>
+        <artifactId>sirius-parent</artifactId>
+        <version>3.14</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.fkrone</groupId>
+    <artifactId>likensing-client</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>Likensing Client</name>
+    <description>A small library to check licenses</description>
+    <url>https://github.com/fkrone/likensing-client</url>
+
+    <developers>
+        <developer>
+            <name>Fabian Krone</name>
+            <email>fkrone1993@gmail.com</email>
+            <organization/>
+            <organizationUrl/>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.owner>fkrone</project.owner>
+        <sds.skip>true</sds.skip>
+        <sirius.ideaExcludes>.idea/copyright/**</sirius.ideaExcludes>
+
+    </properties>
+
+</project>
